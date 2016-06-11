@@ -25,7 +25,7 @@ class HighArray {
 
 				break; // exit loop before end
 		if (j == nElems) // gone to end?
-			return false; // yes, can’t find it
+			return false; // yes, canâ€™t find it
 		else
 			return true; // no, found it
 	} // end find()
@@ -44,7 +44,7 @@ class HighArray {
 			// look for it
 			if (value == a[j])
 				break;
-		if (j == nElems) // can’t find it
+		if (j == nElems) // canâ€™t find it
 			return false;
 		else // found it
 		{
@@ -125,8 +125,7 @@ class Array2 {
 		arr.display(); // display items
 
 		System.out
-				.println(" Which sort \n 1. Selection Sort \n    Or \n 2. Bubble Sort"
-						+ "kar diya \n");
+				.println(" Which sort \n 1. Selection Sort \n    Or \n 2. Bubble Sort");
 
 		Scanner in = new Scanner(System.in);
 		int input = in.nextInt();
@@ -154,7 +153,7 @@ class Array2 {
 		if (arr.find(searchKey))
 			System.out.println("Found " + searchKey);
 		else
-			System.out.println("Can’t find " + searchKey);
+			System.out.println("Canâ€™t find " + searchKey);
 		arr.delete(00); // delete 3 items
 		arr.delete(55);
 		arr.delete(99);
